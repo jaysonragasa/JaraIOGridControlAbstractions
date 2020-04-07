@@ -10,7 +10,7 @@ Create an inline Row and Column defenitions for Grid control in Xamarin
 
 i.e  
 **GridDefinitions="~ \* / \* \*"**  
--- This will create 2 rows and 2 columns. The height of the first Row is set to Auto and the second is set to Star. Two new columns are set to Star. Note: Doesn't matter if you added spaces before and after the Slash. So it can be ="~ \*/\* \*"
+-- This will create 2 rows and 2 columns. The height of the first Row is set to Auto and the second is set to Star. Two new columns are set to Star. Note: Doesn't matter if you added spaces before and after the Slash. So it can be ="~ \*/\* \*"  
 **RowColumn="0/1"**  
 -- Will set the current element in the first row of the grid and in second row of the grid.  
 **RowColumn="0 2/1"**  
