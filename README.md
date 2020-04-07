@@ -22,7 +22,7 @@ i.e
 **GridDefinitions="Auto ~ \*,\*"**  
 -- This will create four rows. First and second row is set to Auto. Third and Forth are set to Star  
 **RowColumn="0/1"**  
--- Will set the current element in the first row of the grid and in second row of the grid.  
+-- Will set the current element in the first row of the grid and in second column of the grid.  
 **RowColumn="0 2/1"**  
 -- Will set the current element in the first row of the grid spanning upto the second and then it will place the element in the second column.
 
