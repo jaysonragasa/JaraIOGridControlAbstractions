@@ -1,6 +1,8 @@
 # JaraIOGridControlAbstractions
 Create an inline Row and Column defenitions for Grid control in Xamarin
 
+![](https://pbs.twimg.com/media/EU93F1sU8AImkUg?format=png&name=large)
+
 # History
 ## 1.2
 * Added two new attached attributes called GridDefinitions and RowColumns
@@ -11,6 +13,12 @@ Create an inline Row and Column defenitions for Grid control in Xamarin
 i.e  
 **GridDefinitions="~ \* / \* \*"**  
 -- This will create 2 rows and 2 columns. The height of the first Row is set to Auto and the second is set to Star. Two new columns are set to Star. Note: Doesn't matter if you added spaces before and after the Slash. So it can be ="~ \*/\* \*"  
+**GridDefinitions="~ ~/\*2 \*"**  
+-- This is another example  
+**GridDefinitions="/\*2 \*"**  
+-- Notice the slash as the first chracter. This will create a column instead of a row.  
+**GridDefinitions="\*2 \*/"**  or **GridDefinitions="\*2 \*"**  
+-- Notice the slash at the end or the other doesn't have it? This will create rows only!  
 **RowColumn="0/1"**  
 -- Will set the current element in the first row of the grid and in second row of the grid.  
 **RowColumn="0 2/1"**  
