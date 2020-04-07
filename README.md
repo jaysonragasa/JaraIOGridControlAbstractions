@@ -19,6 +19,8 @@ i.e
 -- Notice the slash as the first chracter. This will create a column instead of a row.  
 **GridDefinitions="\*2 \*/"**  or **GridDefinitions="\*2 \*"**  
 -- Notice the slash at the end or the other doesn't have it? This will create rows only!  
+**GridDefinitions="Auto ~ \*,\*"**  
+-- This will create four rows. First and second row is set to Auto. Third and Forth are set to Star  
 **RowColumn="0/1"**  
 -- Will set the current element in the first row of the grid and in second row of the grid.  
 **RowColumn="0 2/1"**  
